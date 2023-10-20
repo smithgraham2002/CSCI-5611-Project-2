@@ -1,4 +1,5 @@
 # CSCI-5611-Project-2
+Graham Smith
 ![image](https://github.com/smithgraham2002/CSCI-5611-Project-2/assets/103609167/a8a5fdcd-acd5-4f36-963d-9b1859fafe85)
 
 Features:
