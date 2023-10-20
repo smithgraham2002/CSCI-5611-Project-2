@@ -9,3 +9,5 @@ Features:
 4. Ripping/Tearing: If the distance between two nodes in the cloth becomes too great, the link between them will be removed. This causes the cloth to look as though it is tearing under stress.
 
 [![Full Demo](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://youtube.com/shorts/lXtx30z4mqE?feature=share)
+
+One of the biggest difficulties when creating the cloth simulation was getting it to interact properly with the circle. Even once the collision detection function was written, the cloth would often bunch together after hitting the circle. Eventually, after playing around with the collision detection and the properties of the ropes, the interactions became more realistic. In addition, allowing the circle to move when te user dragged it was harder than expected. After a while, I found that my problem was that the circle position was not being updated relative to the scene scale. After correcting this problem, the circle moved smoothly and interacted well with the cloth. 
